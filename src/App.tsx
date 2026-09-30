@@ -245,7 +245,7 @@ body { margin: 0; padding: 0; font-family: system-ui, sans-serif; }
 .price { font-size: 8.5px; font-weight: 700; background: #eee; display: inline-block; padding: 1px 4px; border-radius: 2px; }
 .origin { font-size: 6px; color: #666; font-weight: 600; text-transform: uppercase; }
 .email { font-size: 5.5px; color: #777; }
-.custom { font-size: 5.5px; color: #555; line-height: 1.1; }
+.custom { font-size: 5.5px; color: #555; line-height: 1.1; text-align: left; }
 .custom strong { text-transform: uppercase; color: #333; }
 </style>
 </head>
