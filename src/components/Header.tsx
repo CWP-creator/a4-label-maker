@@ -33,7 +33,7 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="relative w-10 h-10 rounded-xl bg-neutral-900 text-white flex items-center justify-center shadow-xs">
             <Printer className="w-5 h-5 text-white" />
             <span className="absolute -top-1 -right-1 rounded-full bg-emerald-500 px-1 py-0.5 text-[7px] leading-none font-extrabold text-white ring-2 ring-white">
-              V2
+              V3
             </span>
           </div>
           <div>
