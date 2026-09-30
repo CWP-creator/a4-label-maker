@@ -30,8 +30,11 @@ export const Header: React.FC<HeaderProps> = ({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-4">
         {/* Logo and App Title */}
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-neutral-900 text-white flex items-center justify-center shadow-xs">
+          <div className="relative w-10 h-10 rounded-xl bg-neutral-900 text-white flex items-center justify-center shadow-xs">
             <Printer className="w-5 h-5 text-white" />
+            <span className="absolute -top-1 -right-1 rounded-full bg-emerald-500 px-1 py-0.5 text-[7px] leading-none font-extrabold text-white ring-2 ring-white">
+              V2
+            </span>
           </div>
           <div>
             <div className="flex items-center gap-2">
