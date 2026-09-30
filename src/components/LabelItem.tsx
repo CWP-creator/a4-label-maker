@@ -82,11 +82,11 @@ export const LabelItem: React.FC<LabelItemProps> = ({ data, config, index }) => 
           {data.price}
         </div>
         {data.customFields?.some((field) => field.label.trim() || field.value.trim()) && (
-          <div className="mt-1 w-full flex flex-col gap-0.5 text-[5.5px] leading-none text-left">
+          <div className="mt-1 w-full flex flex-col gap-0.5 text-[5.5px] leading-none text-center">
             {data.customFields.map(
               (field) =>
                 (field.label.trim() || field.value.trim()) && (
-                  <div key={field.id} className="flex gap-1 break-words">
+                  <div key={field.id} className="flex justify-center gap-1 break-words text-center">
                     <span className="font-bold uppercase text-neutral-700">{field.label}:</span>
                     <span className="text-neutral-600">{field.value}</span>
                   </div>
