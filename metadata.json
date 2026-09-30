@@ -1,0 +1,6 @@
+{
+  "name": "A4 Label Maker",
+  "description": "Design, customize, and print A4 label sheets with custom grid layouts, product details, barcodes, and Google Drive integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
